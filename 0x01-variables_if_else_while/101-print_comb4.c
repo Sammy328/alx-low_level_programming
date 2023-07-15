@@ -4,6 +4,7 @@
  *
  * Return : 0 success
  */
+
 int main(void)
 {
 	int i = '0';
@@ -21,7 +22,7 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(k);
-					if (!(i == '7' && j== '8' && k == '9'))
+					if (!(i == '7' && j == '8' && k == '9'))
 					{
 						putchar(',');
 						putchar(' ');
@@ -36,5 +37,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-	return(0);
+return(0);
 }

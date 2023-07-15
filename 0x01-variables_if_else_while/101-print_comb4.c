@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -print three combination
+ * main - print three combination
  *
- * Return : 0 success
+ * Return : Always 0 (success)
  */
 
 int main(void)

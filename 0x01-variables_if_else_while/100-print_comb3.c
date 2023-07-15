@@ -3,7 +3,7 @@
 /**
  * main - function to print combination of two numbers
  *
- * Return: 0 on success
+ 0* Return : 0 on success
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int i = '0';
 	int j = '0';
 
-	while (i <= '9')
+	while(i <= '9')
 	{
 		while (j <= '9')
 		{

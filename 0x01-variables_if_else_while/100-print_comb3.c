@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - function to print combination of two numbers
+ * main - prints all possible different combinations of two digits 
  *
- * Return: 0 on success
+ * Return: Always 0
  */
-
 int main(void)
 {
 	int i = '0';

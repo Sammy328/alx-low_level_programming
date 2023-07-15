@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main -print three combination
  *
@@ -37,5 +38,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-return(0);
+return (0);
 }

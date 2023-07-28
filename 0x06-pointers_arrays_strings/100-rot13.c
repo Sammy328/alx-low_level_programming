@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * *rot13 - encodes a string using rot 13
  * @s: the string
@@ -8,8 +9,8 @@
 char *rot13(char *s)
 {
 	int i, j;
-	char *letters1 = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"}
-	char *letters2 = {"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"}
+	char *letters1 = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
+	char *letters2 = {"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{

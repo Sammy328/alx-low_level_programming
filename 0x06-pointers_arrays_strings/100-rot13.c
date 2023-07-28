@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * *rot13 - encodes a string using rot 13
+ * *rot13 - encodes a string using rot13
  * @s: the string
  *
  * Return: the encoded string
  */
+
 char *rot13(char *s)
 {
 	int i, j;
@@ -16,12 +17,10 @@ char *rot13(char *s)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (s[i] == lettersl[j])
+			if (s[i] == letters1[j])
 			{
-				{
-					s[i] = letters2[j]
-					break;
-				}
+				s[i] = letters2[j];
+				break;
 			}
 		}
 	}

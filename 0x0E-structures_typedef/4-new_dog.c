@@ -6,7 +6,7 @@
  *
  * Return: the length of the string
  */
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int i;
 
@@ -34,7 +34,7 @@ char *_strcpy(char *dest, char *src)
 
 	int len, i;
 
-	len = 0
+	len = 0;
 
 	while (src[len] != '\0')
 	{
